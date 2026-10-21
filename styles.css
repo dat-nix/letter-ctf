@@ -50,7 +50,7 @@ a { color: #332c2b; } a:hover,a:focus-visible { color: #701c83; }
 .letter-paper.revealed { animation: paper-arrive .55s ease both; }
 @keyframes paper-arrive { from { opacity: 0; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
 .letter-paper[hidden] { display: none; }
-.letter-paper { background: repeating-linear-gradient(#fffaf0,#fffaf0 25px,#eee2d2 26px); border-left: 1px solid #c8aa91; border-right: 1px solid #c8aa91; font-size: 16px; line-height: 1.5; } .date-line { color: #743886; border: 2px dashed #7e00ac; padding: 8px; }
+.letter-paper { background: repeating-linear-gradient(#fffaf0,#fffaf0 25px,#eee2d2 26px); border-left: 1px solid #c8aa91; border-right: 1px solid #c8aa91; font-size: 16px; line-height: 1.5; font-weight: normal; } .letter-paper * { font-weight: normal; } .date-line { color: #743886; border: 2px dashed #7e00ac; padding: 8px; }
 .letter-paper h3 { font-size: 22px; font-weight: normal; color: #6d2f73; } .signature { text-align: right; color: #6d2f73; font-size: 20px; }
 .letter-paper .letter-greeting { font-size: 22px; font-weight: normal; color: #6d2f73; }
 .album-body { padding-top: 17px; } .album-body > p { text-align: center; }
