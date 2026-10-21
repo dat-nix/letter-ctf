@@ -16,6 +16,7 @@ The page uses local copies so the visual layer does not depend on hotlinked file
 | `assets/retro/found/rainbow-divider.gif` | https://contemporary-home-computing.org/vernacular-web-2/rainbow1.gif | Historical Web 1.0 GIF archive; creator/license not identified |
 | `assets/retro/found/flower-badge.gif` | https://contemporary-home-computing.org/vernacular-web-2/flower7.gif | Historical Web 1.0 GIF archive; creator/license not identified |
 | `assets/retro/found/felix-cat.gif` | https://contemporary-home-computing.org/vernacular-web-2/felixthecat-1.gif | Historical Web 1.0 GIF archive; creator/license not identified |
+| `assets/reference/DancingScript-Regular.ttf` | Google Fonts / Dancing Script | SIL Open Font License; Vietnamese-capable romantic letter font |
 
 For a public release, replace fan-art assets with files from GifCities, a clearly licensed pixel-art collection, or original artwork, and keep the source/license row updated.
 ### `assets/reference/NotoSansMono-Regular.ttf`
