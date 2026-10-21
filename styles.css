@@ -51,8 +51,8 @@ a { color: #332c2b; } a:hover,a:focus-visible { color: #701c83; }
 @keyframes paper-arrive { from { opacity: 0; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
 .letter-paper[hidden] { display: none; }
 .letter-paper { background: repeating-linear-gradient(#fffaf0,#fffaf0 25px,#eee2d2 26px); border-left: 1px solid #c8aa91; border-right: 1px solid #c8aa91; font: normal 16px/1.5 'FreePixel','Courier New',monospace; } .letter-paper * { font-family:'FreePixel','Courier New',monospace; font-weight:normal; } .date-line { color: #743886; border: 2px dashed #7e00ac; padding: 8px; }
-.letter-paper h3 { font-size: 22px; font-weight: normal; color: #6d2f73; } .signature { text-align: right; color: #6d2f73; font-size: 20px; }
-.letter-paper .letter-greeting { font-size: 22px; font-weight: normal; color: #6d2f73; }
+.letter-paper h3 { font-size: 16px; font-weight: 400; color: inherit; } .signature { text-align: right; color: inherit; font-size: 16px; }
+.letter-paper .letter-greeting { font-size: 16px; font-weight: 400; color: inherit; }
 .letter-paper, .letter-paper p, .letter-paper h3, .letter-paper .date-line, .letter-paper .letter-greeting, .letter-paper .signature { font-weight: 400 !important; }
 .album-body { padding-top: 17px; } .album-body > p { text-align: center; }
 .photo-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 13px; margin-top: 17px; }
