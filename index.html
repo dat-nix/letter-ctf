@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>our little love letter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- old route: /letter/open — the envelope answers with headers, not a page. try the method it allows. -->
+  <!-- hint: a 405 is a clue, not a dead end. -->
+  <div class="site-wrap">
+    <header class="pixel-header">
+      <div class="header-art">
+        <h1>our little love letter</h1>
+        <div class="header-stickers" aria-hidden="true">
+          <img class="header-sticker header-cat" src="assets/reference/cats/catpc.gif" alt="" />
+          <img class="header-sticker header-heart" src="assets/reference/heart-pixel.gif" alt="" />
+          <img class="header-sticker header-star" src="assets/retro/sparkles/starflyer-gold.gif" alt="" />
+          <img class="header-sticker header-butterfly" src="assets/retro/found/turbobutterfly.gif" alt="" />
+          <img class="header-sticker header-dove" src="assets/retro/found/blue-dove.gif" alt="" />
+          <img class="header-sticker header-flower" src="assets/retro/found/flower-badge.gif" alt="" />
+          <img class="header-sticker header-felix" src="assets/retro/found/felix-cat.gif" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="photo-wall" aria-hidden="true">
+      <figure class="pinned-photo photo-one"><span class="pin"></span><img src="assets/photos/IMG_3163.jpg" alt="" /></figure>
+      <figure class="pinned-photo photo-two"><span class="pin"></span><img src="assets/photos/IMG_3291.jpg" alt="" /></figure>
+      <figure class="pinned-photo photo-three"><span class="pin"></span><img src="assets/photos/IMG_4353.JPG" alt="" /></figure>
+      <figure class="pinned-photo photo-four"><span class="pin"></span><img src="assets/photos/IMG_4788.jpg" alt="" /></figure>
+      <img class="wall-sticker sticker-two" src="assets/reference/rose-pixel.gif" alt="" />
+      <img class="wall-sticker sticker-three" src="assets/retro/sparkles/sparkle-star-white.gif" alt="" />
+      <img class="wall-sticker sticker-five" src="assets/reference/rose-pixel.gif" alt="" />
+      <img class="wall-sticker sticker-eight" src="assets/reference/rose-pixel.gif" alt="" />
+      <img class="wall-sticker sailor-wall-sticker" src="assets/stickers/sailor-moon-pixel-clean-crop.png" alt="pixel magical girl sticker" />
+      <img class="wall-sticker cute-dog-fox-one" src="assets/reference/pixel-dog-fox.png" alt="pixel dog and fox sticker" />
+      <img class="wall-sticker cute-cat-pc" src="assets/reference/cats/catpc.gif" alt="pixel cat at a computer sticker" />
+    </div>
+    <main class="letter-page" id="letter-page">
+      <div class="letter-cover" id="letter">
+        <form class="seal-form" id="unlockForm" hidden>
+          <div class="seal-note">
+            <span class="seal-sparkle">✦</span>
+            <p>the envelope is waiting for one secret word.<br /><small>find it before you touch the wax.</small></p>
+          </div>
+          <label for="unlockKey">the second seal word:</label>
+          <div class="seal-controls">
+            <input id="unlockKey" name="key" type="text" autocomplete="off" spellcheck="false" aria-describedby="unlockStatus" />
+            <button type="submit">unlock</button>
+          </div>
+          <p class="unlock-status" id="unlockStatus" role="status">the letter is still asleep.</p>
+        </form>
+        <div class="envelope-stage">
+          <button class="envelope" id="openLetter" type="button" aria-label="Enter the sealed envelope" aria-expanded="false">
+            <span class="envelope-back"></span>
+            <span class="envelope-letter"></span>
+            <span class="envelope-flap"></span>
+            <span class="envelope-front"></span>
+            <span class="wax-seal">♡</span>
+          </button>
+        </div>
+      </div>
+      <article class="section-body letter-paper" id="letterPaper" hidden>
+        <div id="letterContent" aria-live="polite"></div>
+      </article>
+
+    </main>
+    <footer class="footer-bar" aria-label="twinkling hearts and stars">
+      <img class="footer-divider" src="assets/retro/found/rainbow-divider.gif" alt="" />
+      <img class="footer-sticker footer-cat" src="assets/reference/cats/catpc.gif" alt="" />
+      <img class="footer-sticker footer-pika" src="assets/stickers/pikachu-pixel-clean.png" alt="pixel electric mouse sticker" />
+      <img class="footer-sticker footer-heart" src="assets/reference/heart-pixel.gif" alt="" />
+      <img class="footer-sticker footer-star" src="assets/retro/sparkles/starflyer-gold.gif" alt="" />
+      <img class="footer-sticker footer-rose" src="assets/reference/rose-pixel.gif" alt="" />
+      <img class="footer-sticker footer-sparkle" src="assets/retro/sparkles/sparkle-star-white.gif" alt="" />
+      <img class="footer-sticker footer-email" src="assets/retro/misc/email-me.gif" alt="" />
+      <img class="footer-sticker footer-butterfly" src="assets/retro/found/turbobutterfly.gif" alt="" />
+      <img class="footer-sticker footer-dove" src="assets/retro/found/blue-dove.gif" alt="" />
+      <img class="footer-sticker footer-flower" src="assets/retro/found/flower-badge.gif" alt="" />
+      <img class="footer-sticker footer-felix" src="assets/retro/found/felix-cat.gif" alt="" />
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /archive/
+Disallow: /assets/forensics/
+
+# old homepage note: the forgotten route still knows the order.

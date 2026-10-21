@@ -1,0 +1,10 @@
+/* old map fragment: eibyuuvg */
+/* hint: the envelope is back at the homepage; combine this fragment with the image's fragment. */
+/* crypto hint: the moon repeats a four-letter dance. use its name as the Vigenere key. */
+:root {
+  --second-seal-fragment: "eibyuuvg";
+  --return-to-envelope: url("/");
+}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#d9dccf;color:#543d35;font:16px 'Courier New',monospace}
+main{width:min(560px,calc(100% - 36px));padding:28px;text-align:center;background:#fff8df;border:3px ridge #c99172;box-shadow:7px 7px #8d5b4d}
+main img{width:130px;image-rendering:pixelated}h1{color:#8a216e;font-size:22px}.tiny{font-size:12px;color:#754c42}

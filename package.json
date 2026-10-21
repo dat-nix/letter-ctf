@@ -1,0 +1,12 @@
+{
+  "name": "letter-ctf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A cozy Web 1.0 love-letter CTF",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
